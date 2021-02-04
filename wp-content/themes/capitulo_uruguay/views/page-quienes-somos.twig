@@ -1,0 +1,55 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+	<!-- Header -->
+	<div id="header_img" style="background-image: url('{{ post.thumbnail.src }}');"></div>
+
+	<!-- Page Body -->
+	<div class="py-5">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-12 col-md-8">
+
+					<h2 class="page_title">{{ post.title }}</h2>
+					<hr class="divider">
+					<p class="page_text">
+						{{ post.content }}
+					</p>
+
+					{% if post.meta('documentos') %}
+
+						{% for item in post.get_field('documentos') %}
+
+
+							<div class="pdf mb-2">
+								<a href="{{item.link}}" target="blank">
+									<div>
+
+										<img class="pdf_icon mb-2 mb-sm-0" src="{{ theme.link }}/img/pdf_icon2.png" alt="pdf logo">
+										<p class="pdf_text small">{{item.title}}</p>
+
+									</div>
+								</a>
+							</div>
+
+						{% endfor %}
+
+
+					{% endif %}
+
+
+					<hr class="divider_bottom">
+
+
+				</div>
+				<div class="col-0 col-md-4"></div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+{% endblock %}

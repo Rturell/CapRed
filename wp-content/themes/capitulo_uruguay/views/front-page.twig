@@ -1,0 +1,145 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+
+	<!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			{% for item in post.get_field('slide') %}
+				<div class="swiper-slide">
+
+
+					<div class="slide_img" style ="background-image: url('{{item.image}}');"></div>
+					<div class="slide_block"></div>
+					<div class="slide_text">
+						<div class="container">
+
+							<h2>{{item.title}}</h2>
+							<p class="small">{{item.description}}</p>
+
+							{% if item.text_btn %}
+
+							<a class="btn slide_btn mt-2" href="{{item.link_btn}}" target="blank">{{item.text_btn}}</a>
+
+							{% endif %}
+						
+
+						</div>
+
+					</div>
+
+				</div>
+			{% endfor %}
+
+		</div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next d-none d-md-inline"></div>
+		<div class="swiper-button-prev d-none d-md-inline"></div>
+	</div>
+
+
+
+	<div id="uy-banner">
+		<div class="container">
+			<div class="row flex-column-reverse flex-lg-row">
+				<div class="col-lg-4 mt-5 mt-lg-0">
+					<img class="uy-banner_logo" src="{{ theme.link }}/img/uy.png" alt="">
+				</div>
+				<div class="col-lg-8 uy-banner_text align-self-center mb-5 mb-lg-0">
+
+					<p>
+						{{ post.content }}
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- News Banner  -->
+
+	<div id="news-banner">
+		<div class="container">
+			<div class="row">
+
+				{% if post.meta('foto_banner_1') %}
+
+					<div class="col-12 col-md-6 mb-4 mb-md-0">
+						<a href="{{post.meta('link_banner_1')}}" target="blank">
+
+							<div data-content="{{post.meta('texto_banner_1')}}" class="image">
+								<img src="{{post.meta('foto_banner_1')}}" alt=""/>
+							</div>
+
+						</a>
+
+					</div>
+				{% endif %}
+
+				{% if post.meta('foto_banner_2') %}
+
+					<div class="col-12 col-md-6">
+						<a href="{{post.meta('link_banner_2')}}" target="blank">
+							<div data-content="{{post.meta('texto_banner_2')}}" class="image">
+								<img src="{{post.meta('foto_banner_2')}}" alt=""/>
+							</div>
+						</a>
+
+					</div>
+
+				{% endif %}
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Latest News -->
+
+	<div id="news-card" class="d-none">
+		<div class="container">
+			<div class="row">
+				<div class="col-10">
+					<h3>Últimas Novedades</h3>
+				</div>
+				<div class="col-2 text-right">
+					<a class="btn btn-dark news-card_btn mobile-none" href="{{ child.link }}/novedades">ver todas</a>
+				</div>
+			</div>
+			<div class="row mt-4">
+
+				{% for post in posts %}
+
+					<div class="col-sm-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+						<div class="card my-card">
+
+							<a href="{{post.link}}"><img class="news-card_img" src="{{ post.thumbnail.src }}" alt=""></a>
+							<h4 class="news-card_title mt-2">
+								<b>{{post.title}}</b>
+							</h4>
+							<p class="small news-card_date">
+								<b>{{post.date}}</b>
+							</p>
+							<p class="news-card_text">{{post.content| slice(0, 100)}}
+								...</p>
+
+							<a class="btn btn-dark news-card_btn" href="{{post.link}}">leer más</a>
+
+						</div>
+
+					</div>
+
+				{% endfor %}
+
+
+			</div>
+
+			<div class="mt-lg-5 text-center">
+				<a class="btn btn-dark news-card_btn dtp-none" href="">ver todas</a>
+			</div>
+
+		</div>
+	</div>
+
+{% endblock %}

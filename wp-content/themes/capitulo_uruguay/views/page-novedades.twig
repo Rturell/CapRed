@@ -1,0 +1,82 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+	<!-- Header -->
+
+{% if post.thumbnail.src %}
+	<div id="header_img" style="background-image: url('{{ post.thumbnail.src }}');"></div>
+{% else %}
+	<div id="header_img" style="background-image: url('{{thumbnail_novedades}}');"></div>
+{% endif %}
+
+
+	<!-- Novedades -->
+
+	<div id="novedades" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-9">
+					<h2 class="page_title">{{ post.title ? post.title : title | capitalize }}</h2>
+					<hr class="divider">
+
+					<div class="row mb-3">
+						{% for post in posts %}
+
+							<div class="col-sm-6 col-md-6 col-lg-4">
+								<div class="card my-card mb-3">
+
+									<a href="{{post.link}}"><img class="news-card_img" src="{{ post.thumbnail.src }}" alt=""></a>
+									<h4 class="news-card_title mt-2">
+										<b>{{post.title}}</b>
+									</h4>
+									<p class="small news-card_date">
+										<b>{{post.date}}</b>
+									</p>
+									<p class="news-card_text">{{post.content | slice(0, 100)}} ...</p>
+
+									<a class="btn btn-dark news-card_btn" href="{{post.link}}">leer más</a>
+
+								</div>
+
+							</div>
+
+						{% endfor %}
+
+					</div>
+
+					{% if post.title %}
+						<div class="text-center my-5">
+						<a class="btn-more btn text-center" href="{{ child.link }}/novedades-all">cargar más</a>
+						</div>	
+					{% else %}
+					
+					{% endif %}
+						
+					
+
+					
+			
+					<hr class="divider_bottom">
+
+				</div>
+				<div class="sidebar col-0 col-md-3">
+					<h6 class="">Categorías</h6>
+					<hr class="hr_sidebar">
+					<ul>
+					{% for cat in categories %}
+						<a href="{{fn('get_category_link', cat)}}">
+							<li>{{cat.cat_name | capitalize }}</li>
+						</a>
+					{% endfor %}
+						
+					</ul>
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+{% endblock %}

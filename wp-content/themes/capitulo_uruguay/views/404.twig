@@ -1,0 +1,30 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+<!-- Header -->
+    <div id="header_img" style ="background-image: url('{{ theme.link }}/img/hero.jpg');">
+    </div>
+
+    <!-- Page Body -->
+    <div class="py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-md-7">
+
+                    <h2 class="page_title">Página no encontrada.</h2>
+                    <hr class="divider">
+                    <p class="page_text"> {{ post.content }}  </p>
+                </div>
+                <div class="col-0 col-md-5">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+{% endblock %}

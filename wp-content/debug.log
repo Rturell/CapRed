@@ -1,0 +1,540 @@
+[30-Sep-2020 13:31:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[30-Sep-2020 13:31:50 UTC] PHP Stack trace:
+[30-Sep-2020 13:31:50 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[30-Sep-2020 13:31:50 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[30-Sep-2020 13:31:50 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Sep-2020 13:31:50 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Sep-2020 13:31:50 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[30-Sep-2020 13:31:50 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Sep-2020 13:31:50 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[30-Sep-2020 13:31:50 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[30-Sep-2020 13:31:50 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[30-Sep-2020 13:31:50 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[30-Sep-2020 13:31:50 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[30-Sep-2020 13:31:50 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[30-Sep-2020 13:31:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[30-Sep-2020 13:31:52 UTC] PHP Stack trace:
+[30-Sep-2020 13:31:52 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[30-Sep-2020 13:31:52 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[30-Sep-2020 13:31:52 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Sep-2020 13:31:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[30-Sep-2020 13:31:52 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Sep-2020 13:31:52 UTC] PHP Stack trace:
+[30-Sep-2020 13:31:52 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[30-Sep-2020 13:31:52 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[30-Sep-2020 13:31:52 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Sep-2020 13:31:52 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[30-Sep-2020 13:31:52 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[30-Sep-2020 13:31:52 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Sep-2020 13:31:52 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[30-Sep-2020 13:31:52 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Sep-2020 13:31:52 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[30-Sep-2020 13:31:52 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[30-Sep-2020 13:31:52 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[30-Sep-2020 13:31:52 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Sep-2020 13:31:52 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[30-Sep-2020 13:31:52 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[30-Sep-2020 13:31:52 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[30-Sep-2020 13:31:52 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[30-Sep-2020 13:31:52 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[30-Sep-2020 13:31:53 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[30-Sep-2020 13:31:53 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[30-Sep-2020 13:31:53 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[30-Sep-2020 13:31:57 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[30-Sep-2020 13:31:57 UTC] PHP Stack trace:
+[30-Sep-2020 13:31:57 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[30-Sep-2020 13:31:57 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[30-Sep-2020 13:31:57 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Sep-2020 13:31:57 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Sep-2020 13:31:57 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[30-Sep-2020 13:31:57 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Sep-2020 13:31:57 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[30-Sep-2020 13:31:57 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[30-Sep-2020 13:31:57 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[30-Sep-2020 13:31:57 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[30-Sep-2020 13:31:57 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[30-Sep-2020 13:31:57 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[30-Sep-2020 15:12:31 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[30-Sep-2020 15:12:31 UTC] PHP Stack trace:
+[30-Sep-2020 15:12:31 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[30-Sep-2020 15:12:31 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[30-Sep-2020 15:12:31 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Sep-2020 15:12:31 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Sep-2020 15:12:31 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[30-Sep-2020 15:12:31 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Sep-2020 15:12:31 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[30-Sep-2020 15:12:31 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[30-Sep-2020 15:12:31 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[30-Sep-2020 15:12:31 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[30-Sep-2020 15:12:31 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[30-Sep-2020 15:12:31 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[30-Sep-2020 15:12:31 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[30-Sep-2020 15:12:31 UTC] PHP Stack trace:
+[30-Sep-2020 15:12:31 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[30-Sep-2020 15:12:31 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[30-Sep-2020 15:12:31 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Sep-2020 15:12:31 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Sep-2020 15:12:31 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[30-Sep-2020 15:12:31 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Sep-2020 15:12:31 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[30-Sep-2020 15:12:31 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[30-Sep-2020 15:12:31 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[30-Sep-2020 15:12:31 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[30-Sep-2020 15:12:31 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[30-Sep-2020 15:12:31 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[01-Oct-2020 14:35:49 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[01-Oct-2020 14:35:49 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[01-Oct-2020 14:35:49 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[01-Oct-2020 14:35:49 UTC] PHP Stack trace:
+[01-Oct-2020 14:35:49 UTC] PHP Stack trace:
+[01-Oct-2020 14:35:49 UTC] PHP Stack trace:
+[01-Oct-2020 14:35:49 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[01-Oct-2020 14:35:49 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[01-Oct-2020 14:35:49 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[01-Oct-2020 14:35:49 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[01-Oct-2020 14:35:49 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[01-Oct-2020 14:35:49 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[01-Oct-2020 14:35:49 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[01-Oct-2020 14:35:49 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[01-Oct-2020 14:35:49 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[01-Oct-2020 14:35:49 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[01-Oct-2020 14:35:49 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[01-Oct-2020 14:35:49 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[01-Oct-2020 14:35:49 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[01-Oct-2020 14:35:49 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[01-Oct-2020 14:35:49 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[01-Oct-2020 14:35:49 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[01-Oct-2020 14:35:49 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[01-Oct-2020 14:35:49 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[01-Oct-2020 14:35:49 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[01-Oct-2020 14:35:49 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[01-Oct-2020 14:35:49 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[01-Oct-2020 14:35:49 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[01-Oct-2020 14:35:49 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[01-Oct-2020 14:35:49 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[01-Oct-2020 14:35:49 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[01-Oct-2020 14:35:49 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[01-Oct-2020 14:35:49 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[01-Oct-2020 14:35:49 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[01-Oct-2020 14:35:49 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[01-Oct-2020 14:35:49 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[01-Oct-2020 14:35:49 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[01-Oct-2020 14:35:49 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[01-Oct-2020 14:35:49 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[01-Oct-2020 14:35:49 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[01-Oct-2020 14:35:49 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[01-Oct-2020 14:35:49 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[02-Oct-2020 13:24:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[02-Oct-2020 13:24:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[02-Oct-2020 13:24:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[02-Oct-2020 13:24:11 UTC] PHP Stack trace:
+[02-Oct-2020 13:24:11 UTC] PHP Stack trace:
+[02-Oct-2020 13:24:11 UTC] PHP Stack trace:
+[02-Oct-2020 13:24:11 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[02-Oct-2020 13:24:11 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[02-Oct-2020 13:24:11 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[02-Oct-2020 13:24:11 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[02-Oct-2020 13:24:11 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[02-Oct-2020 13:24:11 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[02-Oct-2020 13:24:11 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Oct-2020 13:24:11 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Oct-2020 13:24:11 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Oct-2020 13:24:11 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Oct-2020 13:24:11 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Oct-2020 13:24:11 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Oct-2020 13:24:11 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Oct-2020 13:24:11 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Oct-2020 13:24:11 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Oct-2020 13:24:11 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Oct-2020 13:24:12 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Oct-2020 13:24:12 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Oct-2020 13:24:12 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[02-Oct-2020 13:24:12 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[02-Oct-2020 13:24:12 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[02-Oct-2020 13:24:12 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[02-Oct-2020 13:24:12 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[02-Oct-2020 13:24:12 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[02-Oct-2020 13:24:12 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[02-Oct-2020 13:24:12 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[02-Oct-2020 13:24:12 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[02-Oct-2020 13:24:12 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[02-Oct-2020 13:24:12 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[02-Oct-2020 13:24:12 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[02-Oct-2020 13:24:12 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[02-Oct-2020 13:24:12 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[02-Oct-2020 13:24:12 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[02-Oct-2020 13:24:12 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[02-Oct-2020 13:24:12 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[02-Oct-2020 13:24:12 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[02-Oct-2020 13:24:17 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[02-Oct-2020 13:24:17 UTC] PHP Stack trace:
+[02-Oct-2020 13:24:17 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[02-Oct-2020 13:24:17 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[02-Oct-2020 13:24:17 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Oct-2020 13:24:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Oct-2020 13:24:18 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Oct-2020 13:24:18 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Oct-2020 13:24:18 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[02-Oct-2020 13:24:18 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[02-Oct-2020 13:24:18 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[02-Oct-2020 13:24:18 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[02-Oct-2020 13:24:18 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[02-Oct-2020 13:24:18 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[05-Oct-2020 13:55:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[05-Oct-2020 13:55:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[05-Oct-2020 13:55:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[05-Oct-2020 13:55:51 UTC] PHP Stack trace:
+[05-Oct-2020 13:55:51 UTC] PHP Stack trace:
+[05-Oct-2020 13:55:51 UTC] PHP Stack trace:
+[05-Oct-2020 13:55:51 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[05-Oct-2020 13:55:51 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[05-Oct-2020 13:55:51 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[05-Oct-2020 13:55:51 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[05-Oct-2020 13:55:51 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[05-Oct-2020 13:55:51 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[05-Oct-2020 13:55:51 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[05-Oct-2020 13:55:51 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[05-Oct-2020 13:55:51 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[05-Oct-2020 13:55:51 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[05-Oct-2020 13:55:51 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[05-Oct-2020 13:55:51 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[05-Oct-2020 13:55:51 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[05-Oct-2020 13:55:51 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[05-Oct-2020 13:55:51 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[05-Oct-2020 13:55:51 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[05-Oct-2020 13:55:51 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[05-Oct-2020 13:55:51 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[05-Oct-2020 13:55:51 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[05-Oct-2020 13:55:51 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[05-Oct-2020 13:55:51 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[05-Oct-2020 13:55:51 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[05-Oct-2020 13:55:51 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[05-Oct-2020 13:55:51 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[05-Oct-2020 13:55:51 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[05-Oct-2020 13:55:51 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[05-Oct-2020 13:55:51 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[05-Oct-2020 13:55:51 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[05-Oct-2020 13:55:51 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[05-Oct-2020 13:55:51 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[05-Oct-2020 13:55:51 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[05-Oct-2020 13:55:51 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[05-Oct-2020 13:55:51 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[05-Oct-2020 13:55:51 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[05-Oct-2020 13:55:52 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[05-Oct-2020 13:55:52 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[05-Oct-2020 13:55:59 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[05-Oct-2020 13:55:59 UTC] PHP Stack trace:
+[05-Oct-2020 13:55:59 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[05-Oct-2020 13:55:59 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[05-Oct-2020 13:55:59 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[05-Oct-2020 13:55:59 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[05-Oct-2020 13:55:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[05-Oct-2020 13:55:59 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[05-Oct-2020 13:55:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[05-Oct-2020 13:55:59 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[05-Oct-2020 13:55:59 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[05-Oct-2020 13:55:59 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[05-Oct-2020 13:55:59 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[05-Oct-2020 13:55:59 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[06-Oct-2020 14:58:05 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[06-Oct-2020 14:58:05 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[06-Oct-2020 14:58:05 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[06-Oct-2020 14:58:06 UTC] PHP Stack trace:
+[06-Oct-2020 14:58:06 UTC] PHP Stack trace:
+[06-Oct-2020 14:58:06 UTC] PHP Stack trace:
+[06-Oct-2020 14:58:06 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[06-Oct-2020 14:58:06 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[06-Oct-2020 14:58:06 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[06-Oct-2020 14:58:06 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[06-Oct-2020 14:58:06 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[06-Oct-2020 14:58:06 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[06-Oct-2020 14:58:06 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[06-Oct-2020 14:58:06 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[06-Oct-2020 14:58:06 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[06-Oct-2020 14:58:06 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[06-Oct-2020 14:58:06 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[06-Oct-2020 14:58:06 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[06-Oct-2020 14:58:06 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[06-Oct-2020 14:58:06 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[06-Oct-2020 14:58:06 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[06-Oct-2020 14:58:06 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[06-Oct-2020 14:58:06 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[06-Oct-2020 14:58:06 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[06-Oct-2020 14:58:06 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[06-Oct-2020 14:58:06 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[06-Oct-2020 14:58:06 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[06-Oct-2020 14:58:06 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[06-Oct-2020 14:58:06 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[06-Oct-2020 14:58:06 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[06-Oct-2020 14:58:06 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[06-Oct-2020 14:58:06 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[06-Oct-2020 14:58:06 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[06-Oct-2020 14:58:06 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[06-Oct-2020 14:58:06 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[06-Oct-2020 14:58:06 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[06-Oct-2020 14:58:06 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[06-Oct-2020 14:58:06 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[06-Oct-2020 14:58:06 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[06-Oct-2020 14:58:06 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[06-Oct-2020 14:58:06 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[06-Oct-2020 14:58:06 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[06-Oct-2020 14:58:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[06-Oct-2020 14:58:11 UTC] PHP Stack trace:
+[06-Oct-2020 14:58:11 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[06-Oct-2020 14:58:11 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[06-Oct-2020 14:58:11 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[06-Oct-2020 14:58:11 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[06-Oct-2020 14:58:11 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[06-Oct-2020 14:58:11 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[06-Oct-2020 14:58:11 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[06-Oct-2020 14:58:11 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[06-Oct-2020 14:58:11 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[06-Oct-2020 14:58:11 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[06-Oct-2020 14:58:11 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[06-Oct-2020 14:58:11 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[07-Oct-2020 15:10:24 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[07-Oct-2020 15:10:24 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[07-Oct-2020 15:10:24 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[07-Oct-2020 15:10:24 UTC] PHP Stack trace:
+[07-Oct-2020 15:10:24 UTC] PHP Stack trace:
+[07-Oct-2020 15:10:24 UTC] PHP Stack trace:
+[07-Oct-2020 15:10:24 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[07-Oct-2020 15:10:24 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[07-Oct-2020 15:10:24 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[07-Oct-2020 15:10:24 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[07-Oct-2020 15:10:24 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[07-Oct-2020 15:10:24 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[07-Oct-2020 15:10:24 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[07-Oct-2020 15:10:24 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[07-Oct-2020 15:10:24 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[07-Oct-2020 15:10:24 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[07-Oct-2020 15:10:24 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[07-Oct-2020 15:10:24 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[07-Oct-2020 15:10:24 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[07-Oct-2020 15:10:24 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[07-Oct-2020 15:10:24 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[07-Oct-2020 15:10:24 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[07-Oct-2020 15:10:24 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[07-Oct-2020 15:10:24 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[07-Oct-2020 15:10:24 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[07-Oct-2020 15:10:24 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[07-Oct-2020 15:10:24 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[07-Oct-2020 15:10:24 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[07-Oct-2020 15:10:24 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[07-Oct-2020 15:10:24 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[07-Oct-2020 15:10:24 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[07-Oct-2020 15:10:24 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[07-Oct-2020 15:10:24 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[07-Oct-2020 15:10:24 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[07-Oct-2020 15:10:24 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[07-Oct-2020 15:10:24 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[07-Oct-2020 15:10:24 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[07-Oct-2020 15:10:24 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[07-Oct-2020 15:10:24 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[07-Oct-2020 15:10:24 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[07-Oct-2020 15:10:24 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[07-Oct-2020 15:10:24 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[07-Oct-2020 15:10:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[07-Oct-2020 15:10:32 UTC] PHP Stack trace:
+[07-Oct-2020 15:10:32 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[07-Oct-2020 15:10:32 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[07-Oct-2020 15:10:32 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[07-Oct-2020 15:10:32 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[07-Oct-2020 15:10:32 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[07-Oct-2020 15:10:32 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[07-Oct-2020 15:10:32 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[07-Oct-2020 15:10:32 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[07-Oct-2020 15:10:32 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[07-Oct-2020 15:10:32 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[07-Oct-2020 15:10:32 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[07-Oct-2020 15:10:32 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[14-Oct-2020 16:53:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[14-Oct-2020 16:53:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[14-Oct-2020 16:53:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[14-Oct-2020 16:53:03 UTC] PHP Stack trace:
+[14-Oct-2020 16:53:03 UTC] PHP Stack trace:
+[14-Oct-2020 16:53:03 UTC] PHP Stack trace:
+[14-Oct-2020 16:53:03 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[14-Oct-2020 16:53:03 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[14-Oct-2020 16:53:03 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[14-Oct-2020 16:53:03 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[14-Oct-2020 16:53:03 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[14-Oct-2020 16:53:03 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[14-Oct-2020 16:53:03 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Oct-2020 16:53:03 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Oct-2020 16:53:03 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Oct-2020 16:53:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Oct-2020 16:53:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Oct-2020 16:53:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Oct-2020 16:53:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Oct-2020 16:53:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Oct-2020 16:53:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Oct-2020 16:53:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Oct-2020 16:53:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Oct-2020 16:53:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Oct-2020 16:53:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Oct-2020 16:53:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Oct-2020 16:53:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Oct-2020 16:53:03 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Oct-2020 16:53:03 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Oct-2020 16:53:03 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Oct-2020 16:53:03 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[14-Oct-2020 16:53:03 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[14-Oct-2020 16:53:03 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[14-Oct-2020 16:53:03 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[14-Oct-2020 16:53:03 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[14-Oct-2020 16:53:03 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[14-Oct-2020 16:53:03 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[14-Oct-2020 16:53:03 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[14-Oct-2020 16:53:03 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[14-Oct-2020 16:53:03 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[14-Oct-2020 16:53:03 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[14-Oct-2020 16:53:03 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[14-Oct-2020 16:53:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[14-Oct-2020 16:53:08 UTC] PHP Stack trace:
+[14-Oct-2020 16:53:08 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[14-Oct-2020 16:53:08 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[14-Oct-2020 16:53:08 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Oct-2020 16:53:08 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Oct-2020 16:53:08 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Oct-2020 16:53:08 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Oct-2020 16:53:08 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Oct-2020 16:53:08 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Oct-2020 16:53:08 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[14-Oct-2020 16:53:08 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[14-Oct-2020 16:53:08 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[14-Oct-2020 16:53:09 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[22-Nov-2020 22:49:25 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[22-Nov-2020 22:49:25 UTC] PHP Stack trace:
+[22-Nov-2020 22:49:25 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[22-Nov-2020 22:49:25 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[22-Nov-2020 22:49:25 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Nov-2020 22:49:25 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Nov-2020 22:49:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[22-Nov-2020 22:49:25 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[22-Nov-2020 22:49:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[22-Nov-2020 22:49:25 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[22-Nov-2020 22:49:25 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[22-Nov-2020 22:49:25 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[22-Nov-2020 22:49:25 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[22-Nov-2020 22:49:25 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[27-Jan-2021 15:23:47 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[27-Jan-2021 15:23:47 UTC] PHP Stack trace:
+[27-Jan-2021 15:23:47 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[27-Jan-2021 15:23:47 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[27-Jan-2021 15:23:47 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[27-Jan-2021 15:23:47 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[27-Jan-2021 15:23:47 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[27-Jan-2021 15:23:47 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[27-Jan-2021 15:23:47 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[27-Jan-2021 15:23:47 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[27-Jan-2021 15:23:47 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[27-Jan-2021 15:23:47 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[27-Jan-2021 15:23:47 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[27-Jan-2021 15:23:47 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[27-Jan-2021 15:23:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[27-Jan-2021 15:23:50 UTC] PHP Stack trace:
+[27-Jan-2021 15:23:50 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[27-Jan-2021 15:23:50 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[27-Jan-2021 15:23:50 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[27-Jan-2021 15:23:50 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[27-Jan-2021 15:23:50 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[27-Jan-2021 15:23:50 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[27-Jan-2021 15:23:50 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[27-Jan-2021 15:23:50 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[27-Jan-2021 15:23:50 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[27-Jan-2021 15:23:50 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[27-Jan-2021 15:23:50 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[27-Jan-2021 15:23:50 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[28-Jan-2021 14:05:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[28-Jan-2021 14:05:48 UTC] PHP Stack trace:
+[28-Jan-2021 14:05:48 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[28-Jan-2021 14:05:48 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[28-Jan-2021 14:05:48 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[28-Jan-2021 14:05:48 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[28-Jan-2021 14:05:48 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[28-Jan-2021 14:05:48 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[28-Jan-2021 14:05:48 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[28-Jan-2021 14:05:48 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[28-Jan-2021 14:05:48 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[28-Jan-2021 14:05:48 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[28-Jan-2021 14:05:48 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[28-Jan-2021 14:05:48 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[28-Jan-2021 14:05:57 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[28-Jan-2021 14:05:57 UTC] PHP Stack trace:
+[28-Jan-2021 14:05:57 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[28-Jan-2021 14:05:57 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[28-Jan-2021 14:05:57 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[28-Jan-2021 14:05:57 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[28-Jan-2021 14:05:57 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[28-Jan-2021 14:05:57 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[28-Jan-2021 14:05:57 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[28-Jan-2021 14:05:57 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[28-Jan-2021 14:05:57 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[28-Jan-2021 14:05:57 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[28-Jan-2021 14:05:57 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[28-Jan-2021 14:05:57 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[04-Feb-2021 13:56:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[04-Feb-2021 13:56:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php on line 1635
+[04-Feb-2021 13:56:42 UTC] PHP Stack trace:
+[04-Feb-2021 13:56:42 UTC] PHP Stack trace:
+[04-Feb-2021 13:56:42 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[04-Feb-2021 13:56:42 UTC] PHP   1. {main}() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[04-Feb-2021 13:56:42 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[04-Feb-2021 13:56:42 UTC] PHP   2. include() C:\Users\Usuario\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[04-Feb-2021 13:56:42 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[04-Feb-2021 13:56:42 UTC] PHP   3. include() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[04-Feb-2021 13:56:42 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[04-Feb-2021 13:56:42 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[04-Feb-2021 13:56:42 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[04-Feb-2021 13:56:42 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[04-Feb-2021 13:56:42 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[04-Feb-2021 13:56:42 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[04-Feb-2021 13:56:42 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[04-Feb-2021 13:56:42 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[04-Feb-2021 13:56:42 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[04-Feb-2021 13:56:42 UTC] PHP   8. require() phar://C:/Users/Usuario/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[04-Feb-2021 13:56:42 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[04-Feb-2021 13:56:42 UTC] PHP   9. require_wp_db() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-settings.php:124
+[04-Feb-2021 13:56:42 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[04-Feb-2021 13:56:42 UTC] PHP  10. wpdb->__construct() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\load.php:482
+[04-Feb-2021 13:56:42 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[04-Feb-2021 13:56:43 UTC] PHP  11. wpdb->db_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:632
+[04-Feb-2021 13:56:43 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635
+[04-Feb-2021 13:56:43 UTC] PHP  12. mysqli_real_connect() C:\Users\Usuario\Desktop\Ro\TECMO\Wordpress\CU\app\public\wp-includes\wp-db.php:1635

@@ -1,0 +1,28 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+    {% include "menu.twig" %}
+
+    <div id="trabajos">
+
+        <div class="container">
+            <h6>DON PEPE</h6>
+            <h1>{{post.post_title}}</h1>
+            <p class="text-center">{{post.post_content}}</p>
+        </div>
+            
+        <div class="bloque-fotos">
+
+            <div class="container">
+
+                <div class='embedsocial-instagram' data-ref="a5532f7b4180ac9312f68b53ea0f53eba3799746"></div>
+                <script>(function (d, s, id) { var js; if (d.getElementById(id)) { return; } js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialInstagramScript"));</script>
+
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock %}
