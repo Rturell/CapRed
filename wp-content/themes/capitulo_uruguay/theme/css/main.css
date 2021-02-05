@@ -64,6 +64,7 @@ nav img {
 .navbar-light .navbar-nav .nav-link {
     color: black;
     font-size: 15px;
+    padding-left: 10px;
 }
 
 .navbar-light .navbar-toggler {
@@ -72,6 +73,7 @@ nav img {
 
 #navbarLinks .nav-link:hover {
     background-color: #00AFCB;
+    padding-left: 10px;
 }
 
 #navbarLinks a:hover {
