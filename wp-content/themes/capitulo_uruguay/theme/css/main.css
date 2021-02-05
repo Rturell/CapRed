@@ -97,6 +97,7 @@ nav img {
 
 .dropdown-item {
     font-size: 14px;
+    white-space: normal;
 }
 
 
